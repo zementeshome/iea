@@ -68,7 +68,7 @@ export const Select = memo((props: SelectProps) => {
   );
 
   return (
-    <Flex gap="1rem">
+    <Flex gap="1rem" alignItems="center">
       <label id={labelId}>
         <Text fontWeight="500">{label}</Text>
       </label>
